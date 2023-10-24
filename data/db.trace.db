@@ -1,0 +1,27 @@
+2023-10-24 13:43:24 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USER""USER""USER" not found; SQL statement:
+SELECT * FROM "USER""USER""USER" [42102-214]
+2023-10-24 13:43:33 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM [*]user"; expected "identifier"; SQL statement:
+SELECT * FROM user [42001-214]
+2023-10-24 13:43:40 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM [*]USER"; expected "identifier"; SQL statement:
+SELECT * FROM USER [42001-214]
+2023-10-24 13:43:41 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM [*]USER"; expected "identifier"; SQL statement:
+SELECT * FROM USER [42001-214]
+2023-10-24 13:44:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]""USER"""; SQL statement:
+"USER" [42000-214]
+2023-10-24 13:44:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]SELEX * FROM ""USER"""; expected "SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+SELEX * FROM "USER" [42001-214]
+2023-10-24 13:44:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]SELEX * FROM ""USER"""; expected "SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+SELEX * FROM "USER" [42001-214]
+2023-10-24 13:44:52 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]SELET * FROM ""USER"""; expected "SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+SELET * FROM "USER" [42001-214]
+2023-10-24 13:45:02 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]SELET * FROM ""USER"""; expected "SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+SELET * FROM "USER" [42001-214]
